@@ -41,8 +41,9 @@ class TopView: UIView {
         topViewLabel.top(to: controllerView , offset: 70)
         topViewLabel.centerXToSuperview()
         topViewLabel.text = "test"
+        
         topViewLabel.font = UIFont.boldSystemFont(ofSize: 20)
-        topViewLabel.textColor = UIColor(hexString: "#3A4759")
+        topViewLabel.textColor = .white
     }
     
     func configureTopViewButtons(button:UIButton){
@@ -52,11 +53,11 @@ class TopView: UIView {
         button.width(20)
         switch button {
         case leftButtonTopView:
-            let image = UIImage(named: "menu")
+            let image = UIImage(named: "menuDark")
             button.setImage(image, for: .normal)
             button.left(to: controllerView , offset: 15)
         case righButtonTopView:
-            let image = UIImage(named: "nitificationBell")
+            let image = UIImage(named: "nitificationBellDark")
             button.setImage(image, for: .normal)
             button.right(to: controllerView , offset: -15)
         default:

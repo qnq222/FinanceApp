@@ -45,7 +45,7 @@ class NotificationCell: UITableViewCell {
         notivicationImage.left(to: contentView , offset: 15)
         notivicationImage.width(70)
         notivicationImage.height(70)
-        notivicationImage.image = UIImage(named: "image")
+        notivicationImage.image = UIImage(named: "placeHolder")
         notivicationImage.centerYToSuperview()
         notivicationImage.layer.cornerRadius = 35
         notivicationImage.clipsToBounds = true

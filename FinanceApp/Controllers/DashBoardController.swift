@@ -40,7 +40,7 @@ class DashBoardController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(hexString: "#F2F4F7")
+        view.backgroundColor = UIColor(hexString: "#24282E")
         configureTopView()
         configureListOfAccountsView()
         configureTotalBalanceView()
@@ -77,7 +77,7 @@ class DashBoardController: UIViewController {
         listOfAccountLB.left(to: listOfAccountsView , offset: 10)
         listOfAccountLB.text = "List of Account"
         listOfAccountLB.font = UIFont.boldSystemFont(ofSize: 20)
-        listOfAccountLB.textColor = UIColor(hexString: "#3A4759")
+        listOfAccountLB.textColor = .white
         
         
         configureView(view: bankView, image: "bankBackground", label: bankLB, balance: bankBalance)
@@ -178,7 +178,7 @@ class DashBoardController: UIViewController {
         lastOrdersView.addSubview(lastOrdersLB)
         lastOrdersLB.left(to: lastOrdersView , offset: 10)
         lastOrdersLB.text = "Last Records Overview"
-        lastOrdersLB.textColor = UIColor(hexString: "#3A4759")
+        lastOrdersLB.textColor = .white
         lastOrdersLB.font = UIFont.boldSystemFont(ofSize: 20)
         //
         configureViewTableView()

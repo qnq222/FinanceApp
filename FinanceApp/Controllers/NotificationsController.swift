@@ -17,7 +17,7 @@ class NotificationsController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(hexString: "#F2F4F7")
+        view.backgroundColor = UIColor(hexString: "#24282E")
         
         topView = TopView(for: self)
         topView.topViewLabel.text = "Notifications"
