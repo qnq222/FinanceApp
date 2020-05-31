@@ -1,7 +1,7 @@
 # FinanceApp
 
 a simple Finance App UI 
-create programmatically 
+created programmatically 
 
 
 the design credit goes to: 
